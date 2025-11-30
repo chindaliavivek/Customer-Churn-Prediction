@@ -71,4 +71,52 @@ Key fields include:
 
 ### **5. Model Export**
 The final model is saved as:
+churn_model.pkl
+
+---
+
+## 📈 Key Insights (full version in insights.txt)
+
+- Customers on **month-to-month contracts** churn the most  
+- **Long-term tenure** strongly reduces churn  
+- **Electronic Check** users churn at the highest rate  
+- **Fiber Optic** users churn more than DSL customers  
+- Customers with **high monthly charges** have higher churn probability  
+
+---
+
+## 📁 Repository Structure
+
+Customer-Churn-Prediction/
+├── churn_notebook.ipynb
+├── telco_churn.csv
+├── churn_model.pkl
+├── insights.txt
+├── README.md
+└── figures/
+├── confusion_matrix.png
+└── feature_importance.png
+
+---
+
+## 🚀 How to Run  
+1. Clone the repository  
+2. Install requirements  
+3. Open and run `churn_notebook.ipynb`  
+4. To load the trained model:
+
+```python
+import joblib
+model = joblib.load("churn_model.pkl")
+
+👨‍💻 Author
+
+Vivek S. Chindalia
+B.E. Information Technology – Mumbai University
+📧 chindaliavivek@gmail.com
+
+
+
+
+
 
