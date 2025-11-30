@@ -96,7 +96,7 @@ Customer-Churn-Prediction/
 └── figures/
 ├── confusion_matrix.png
 └── feature_importance.png
----
+
 
 ## 🚀 How to Run  
 1. Clone the repository  
@@ -113,6 +113,7 @@ model = joblib.load("churn_model.pkl")
 Vivek S. Chindalia
 B.E. Information Technology – Mumbai University
 📧 chindaliavivek@gmail.com
+
 
 
 
