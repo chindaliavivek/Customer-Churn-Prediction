@@ -45,14 +45,14 @@ Key fields include:
 ### **1. Data Cleaning**
 - Converted `TotalCharges` from object → float  
 - Filled missing values with median  
-- Removed `customerID` (non-predictive)  
+- Removed `customerID`  
 - Encoded categorical variables using Label Encoding  
 
 ### **2. Exploratory Analysis**
 - Tenure trends  
 - Monthly charges distribution  
 - Contract type effect on churn  
-- Correlation heatmaps  
+- Correlation heatmap  
 
 ### **3. Machine Learning Models**
 #### **Logistic Regression**
@@ -71,7 +71,10 @@ Key fields include:
 
 ### **5. Model Export**
 The final model is saved as:
+
+```
 churn_model.pkl
+```
 
 ---
 
@@ -83,10 +86,11 @@ churn_model.pkl
 - **Fiber Optic** users churn more than DSL customers  
 - Customers with **high monthly charges** have higher churn probability  
 
-
 ---
+
 ## 📁 Repository Structure
 
+```
 Customer-Churn-Prediction/
 ├── churn_notebook.ipynb
 ├── telco_churn.csv
@@ -94,8 +98,10 @@ Customer-Churn-Prediction/
 ├── insights.txt
 ├── README.md
 └── figures/
-├── confusion_matrix.png
-└── feature_importance.png
+     ├── confusion_matrix.png
+     └── feature_importance.png
+```
+
 ---
 
 ## 🚀 How to Run  
@@ -107,12 +113,15 @@ Customer-Churn-Prediction/
 ```python
 import joblib
 model = joblib.load("churn_model.pkl")
+```
 
-👨‍💻 Author
+---
 
-Vivek S. Chindalia
-B.E. Information Technology – Mumbai University
+## 👨‍💻 Author  
+**Vivek S. Chindalia**  
+B.E. Information Technology – Mumbai University  
 📧 chindaliavivek@gmail.com
+
 
 
 
