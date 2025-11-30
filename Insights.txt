@@ -1,0 +1,33 @@
+Customer Churn Prediction – Key Insights
+
+1. Contract Type
+   - Month-to-month customers show the highest churn.
+   - One-year and two-year contracts retain customers far better.
+
+2. Tenure
+   - Tenure is the strongest predictor.
+   - Customers who stayed >20 months rarely churn.
+
+3. Internet Service
+   - Fiber Optic users churn more than DSL users.
+   - Indicates possible pricing or performance dissatisfaction.
+
+4. Payment Method
+   - Electronic Check customers have extremely high churn.
+   - Automatic payments reduce churn.
+
+5. Monthly Charges
+   - Higher monthly charges → higher churn probability.
+   - Indicates price-sensitive customers.
+
+6. Senior Citizens
+   - Slightly higher churn likelihood.
+
+7. Paperless Billing
+   - Shows a moderate association with churn.
+
+Business Recommendations:
+- Offer discounts or loyalty perks for Month-to-Month customers.
+- Target high charge customers with retention offers.
+- Improve Fiber Optic customer experience.
+- Incentivize Auto-Pay systems to reduce churn.
