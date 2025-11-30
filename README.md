@@ -86,6 +86,7 @@ churn_model.pkl
 ---
 
 ## 📁 Repository Structure
+
 Customer-Churn-Prediction/
 ├── churn_notebook.ipynb
 ├── telco_churn.csv
@@ -95,7 +96,6 @@ Customer-Churn-Prediction/
 └── figures/
 ├── confusion_matrix.png
 └── feature_importance.png
-
 ---
 
 ## 🚀 How to Run  
@@ -113,6 +113,7 @@ model = joblib.load("churn_model.pkl")
 Vivek S. Chindalia
 B.E. Information Technology – Mumbai University
 📧 chindaliavivek@gmail.com
+
 
 
 
