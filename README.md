@@ -1,3 +1,8 @@
+<p align="center">
+  <h1>📊 Customer Churn Prediction — Machine Learning Project</h1>
+</p>
+
+
 # 🔮 Customer Churn Prediction – Machine Learning Project
 
 A complete end-to-end Machine Learning project using the **Telco Customer Churn dataset**.  
@@ -121,6 +126,7 @@ model = joblib.load("churn_model.pkl")
 **Vivek S. Chindalia**  
 B.E. Information Technology – Mumbai University  
 📧 chindaliavivek@gmail.com
+
 
 
 
